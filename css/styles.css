@@ -1,15 +1,32 @@
 /* Default & Mobile View */
+.body {
+    max-width: 1280px;
+}
 
+	.wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
 
+    .card {
+     margin:  5px;
+    }
+
+    
 /* Tablet View */
 
 @media (min-width: 768px) {
-	
+.card {
+      width: 45%;
+    }
 }
 
 
 /* Desktop View */
 
 @media (min-width: 1024px) {
-	
+	.card {
+      width: 30%;
+    }
 }
